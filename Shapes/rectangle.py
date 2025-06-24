@@ -1,7 +1,7 @@
-from shapes import Shape
+from Shapes.shape import Shape
 
 class Rectangle(Shape):
-    def __init__(self,len_sid, width_side ):
+    def __init__(self,len_sid:int|float, width_side:int|float ):
         self._len_sid = len_sid
         self._width_side = width_side
     def get_area(self):
