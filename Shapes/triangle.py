@@ -1,8 +1,8 @@
 from Shapes.rectangle import Rectangle
 
 class RightAngledTriangle(Rectangle):
-    def __init__(self,catheti1:int|float,catheti2:int|float):
-        super().__init__(catheti1,catheti2)
+    def __init__(self,base:int|float,height:int|float):
+        super().__init__(base,height)
     def get_area(self):
         return super().get_area()/2
     def get_perimeter(self):
