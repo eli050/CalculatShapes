@@ -9,4 +9,6 @@ class RegularHexagon(Square):
         return ((3 * sqrt(3))/2) * self._len_sid**2
     def get_perimeter(self):
         return super().get_perimeter() + self._len_sid * 2
+    def __str__(self):
+        return  "I am regular hexagon "
 
