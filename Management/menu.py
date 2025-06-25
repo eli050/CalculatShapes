@@ -162,7 +162,7 @@ class Menu:
     @staticmethod
     def _valid_num_input():
         num = input()
-        while not num.isdigit():
+        while not ''.join(num.split('.')).isdigit():
             num = input(f"The character {num} is invalid (not a number).\n"
                         f"Please enter it again.\n")
         return num
