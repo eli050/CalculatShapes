@@ -9,4 +9,4 @@ class Circle(Shape):
     def get_perimeter(self):
         return pi * (self.radius * 2)
     def __str__(self):
-        return "I am circle"
+        return f"Circle with radius {self.radius} and diameter {self.radius * 2}."

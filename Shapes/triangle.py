@@ -9,5 +9,5 @@ class RightAngledTriangle(Rectangle):
         return (((self._len_sid**2)+
                 (self._width_side**2))**(1/2))+(self._width_side+self._len_sid)
     def __str__(self):
-        return "i am right angled triangle"
+        return f"A right-angled triangle with a base of length {self._len_sid} and a height of length {self._width_side}"
 

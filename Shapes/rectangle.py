@@ -11,4 +11,4 @@ class Rectangle(Shape):
         return (self._width_side * 2) + (self._len_sid * 2)
 
     def __str__(self):
-        return "I am a rectangle"
+        return f"Rectangle with length {self._len_sid} and width {self._width_side}"

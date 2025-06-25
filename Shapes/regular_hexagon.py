@@ -10,5 +10,5 @@ class RegularHexagon(Square):
     def get_perimeter(self):
         return super().get_perimeter() + self._len_sid * 2
     def __str__(self):
-        return  "I am regular hexagon "
+        return f"Regular hexagon with side length {self._len_sid}"
 
