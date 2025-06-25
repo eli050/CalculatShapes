@@ -4,6 +4,7 @@ class Rectangle(Shape):
     def __init__(self,len_sid:int|float, width_side:int|float ):
         self._len_sid = len_sid
         self._width_side = width_side
+
     def get_area(self):
         return self._len_sid * self._width_side
 
